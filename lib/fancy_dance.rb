@@ -1,7 +1,9 @@
 require_relative './class_methods_module.rb'
 require_relative './dance_module.rb'
 
-class FancyDance
-  include Dance
-    
+module FancyDance
+ module InstanceMethods
+ end 
+ module ClassMethods 
+ end 
 end 
