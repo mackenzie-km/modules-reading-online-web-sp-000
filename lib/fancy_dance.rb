@@ -6,6 +6,7 @@ module FancyDance
    include Dance
  end 
  module ClassMethods 
-   extend MetaDancing
+   def metadata
+   end 
  end 
 end 
