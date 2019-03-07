@@ -3,6 +3,7 @@ require_relative './dance_module.rb'
 
 module FancyDance
  module InstanceMethods
+   include Dance
  end 
  module ClassMethods 
  end 
